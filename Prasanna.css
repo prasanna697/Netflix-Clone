@@ -1,0 +1,267 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+body {
+    background: black;
+    color: white;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://user-images.githubusercontent.com/16425113/129554147-6ac7ba51-43e7-4c8e-ba77-e646a3ef6b12.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-right: 2vw;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav .btn {
+    display: flex;
+}
+
+.btn .option {
+    width: 100px;
+    height: 40px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid white;
+}
+
+.btn .sign {
+    width: 100px;
+    height: 40px;
+    margin-left: 2vw;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn .sign:hover {
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.btn .option {
+    margin-inline-end: 20px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main h2 {
+    font-size: 24px;
+}
+
+.main p {
+    font-size: 17px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input input {
+    width: 400px;
+    height: 44px;
+    border: none;
+    font-size: 25px;
+}
+
+.input button {
+    width: 200px;
+    height: 45px;
+    background-color: rgb(225, 11, 11);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+svg {
+    padding: 2vw;
+}
+
+.questions {
+    position: relative;
+    left: 17vw;
+    font-weight: 700;
+    margin-top: cal(16px+1vw);
+    display: inline-flex;
+    font-size: 32px;
+    gap: 2vw;
+}
+
+.q1,
+.q2,
+.q3,
+.q4,
+.q5,
+.q6 {
+    position: relative;
+    left: 10vw;
+    font-weight: 400;
+    padding: 24px;
+    display: flex;
+    width: 1095px;
+    height: 75px;
+    background-color: rgb(63, 58, 58);
+    margin-bottom: 1vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.small {
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 20px;
+}
+
+.img1 {
+    width: 155px;
+    height: 218px;
+    border-radius: 6px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+}
+
+.img2 {
+    width: 155px;
+    height: 218px;
+    border-radius: 6px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.img2:hover {
+    transform: scale(1.1);
+}
+
+.img3 {
+    width: 155px;
+    height: 218px;
+    border-radius: 6px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.img3:hover {
+    transform: scale(1.1);
+}
+
+.img4 {
+    width: 155px;
+    height: 218px;
+    border-radius: 6px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.img4:hover {
+    transform: scale(1.1);
+}
+
+.more {
+    margin-top: 50px;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% /3);
+    margin: 10px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: transparent;
+}
+
+.product>.level {
+    color: black;
+    padding: 15px 0;
+    width: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product>h2 {
+    margin-top: 15px;
+}
+
+.product>ol {
+    margin: 15px 0;
+}
+
+.product>ol>li {
+    padding: 5px 0;
+}
+
+.footer {
+    padding: 44px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2 {
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+table {
+    position: relative;
+    left: 17vw;
+}
+
+u {
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.last {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
